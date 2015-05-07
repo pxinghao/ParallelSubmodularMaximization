@@ -19,7 +19,7 @@ Data for the examples are provided in the <a href=data/>data</a> directory, sour
 To run max graph cut, use the command line arguments to Examples 
 <pre>java -cp bin/submodmax.jar Examples inputfile=&lt;filename&gt; maxNThreads=&lt;maximum number of threads&gt;</pre>
 For example,
-<pre>java -cp bin/submodmax.jar Examples inputfile=data/eswiki-2013 maxNThreads=4</pre>
+<pre>java -cp bin/submodmax.jar Examples inputfile=data/eswiki-2013_rand_symm maxNThreads=4</pre>
 
 <H3>Preprocessing graph data for examples</H3>
 Graph data downloaded from <a href="http://law.di.unimi.it/datasets.php">Laboratory for Web Algorithms</a> can be pre-processed (randomizing order and symmetrizing graph) for use by running <a href=src/main/scala/Preprocess.scala>Preprocess.scala</a> with the command line argument
@@ -35,7 +35,7 @@ If you want to modify the code and run the examples again you can either recompi
 To run max graph cut, use the command line arguments to Examples (this will recompile the code if necessary)
 <pre>sbt/sbt "run-main Examples inputfile=&lt;filename&gt; maxNThreads=&lt;maximum number of threads&gt;"</pre>
 For example,
-<pre>sbt/sbt "run-main Examples inputfile=data/eswiki-2013 maxNThreads=4"</pre>
+<pre>sbt/sbt "run-main Examples inputfile=data/eswiki-2013_rand_symm maxNThreads=4"</pre>
 
 <H3>Preprocessing graph data for examples</H3>
 Graph data downloaded from <a href="http://law.di.unimi.it/datasets.php">Laboratory for Web Algorithms</a> can be pre-processed (randomizing order and symmetrizing graph) for use by running <a href=src/main/scala/Preprocess.scala>Preprocess.scala</a> with the command line argument
