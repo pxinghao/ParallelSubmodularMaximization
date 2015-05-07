@@ -41,5 +41,5 @@ For example,
 Graph data downloaded from <a href="http://law.di.unimi.it/datasets.php">Laboratory for Web Algorithms</a> can be pre-processed (randomizing order and symmetrizing graph) for use by running <a href=src/main/scala/Preprocess.scala>Preprocess.scala</a> with the command line argument
 <pre>sbt/sbt "run-main PreprocessGraph inputfile=&lt;filename&gt;"</pre>
 For example,
-<pre>sbt/sbt "run-main PreprocessGraph inputfile=data/eswiki-2013</pre>
+<pre>sbt/sbt "run-main PreprocessGraph inputfile=data/eswiki-2013"</pre>
 
