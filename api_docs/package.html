@@ -1,0 +1,438 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>root - _root_</title>
+          <meta name="description" content="root - root " />
+          <meta name="keywords" content="root root " />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="lib/template.js"></script>
+      <script type="text/javascript" src="lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = 'index.html';
+            var hash = 'package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="lib/package_big.png" />
+        
+        <h1>root package</h1><span class="permalink">
+      <a href="index.html#package" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">root</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="_root_.ConcurrencyControl_MaxGraphCut" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ConcurrencyControl_MaxGraphCutextendsConcurrencyControl_SubmodularDoubleGreedy"></a>
+      <a id="ConcurrencyControl_MaxGraphCut:ConcurrencyControl_MaxGraphCut"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ConcurrencyControl_MaxGraphCut.html"><span class="name">ConcurrencyControl_MaxGraphCut</span></a><span class="result"> extends <a href="ConcurrencyControl_SubmodularDoubleGreedy.html" class="extype" name="ConcurrencyControl_SubmodularDoubleGreedy">ConcurrencyControl_SubmodularDoubleGreedy</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@ConcurrencyControl_MaxGraphCutextendsConcurrencyControl_SubmodularDoubleGreedy" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing CC-2g max graph cut</p>
+    </li><li name="_root_.ConcurrencyControl_SeparableGroupSums" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ConcurrencyControl_SeparableGroupSumsextendsConcurrencyControl_SubmodularDoubleGreedy"></a>
+      <a id="ConcurrencyControl_SeparableGroupSums:ConcurrencyControl_SeparableGroupSums"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ConcurrencyControl_SeparableGroupSums.html"><span class="name">ConcurrencyControl_SeparableGroupSums</span></a><span class="result"> extends <a href="ConcurrencyControl_SubmodularDoubleGreedy.html" class="extype" name="ConcurrencyControl_SubmodularDoubleGreedy">ConcurrencyControl_SubmodularDoubleGreedy</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@ConcurrencyControl_SeparableGroupSumsextendsConcurrencyControl_SubmodularDoubleGreedy" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing CC-2g for separable sums objective functions, of the form F(X) = \sum_l g(\sum_{i\in S_l\cap X} w_l(i)) - \lambda|X|.</p><div class="fullcomment"><div class="comment cmt"><p>Class implementing CC-2g for separable sums objective functions, of the form F(X) = \sum_l g(\sum_{i\in S_l\cap X} w_l(i)) - \lambda|X|.
+See Appendix F of paper for more details.</p></div></div>
+    </li><li name="_root_.ConcurrencyControl_SetCover" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ConcurrencyControl_SetCoverextendsConcurrencyControl_SeparableGroupSums"></a>
+      <a id="ConcurrencyControl_SetCover:ConcurrencyControl_SetCover"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ConcurrencyControl_SetCover.html"><span class="name">ConcurrencyControl_SetCover</span></a><span class="result"> extends <a href="ConcurrencyControl_SeparableGroupSums.html" class="extype" name="ConcurrencyControl_SeparableGroupSums">ConcurrencyControl_SeparableGroupSums</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@ConcurrencyControl_SetCoverextendsConcurrencyControl_SeparableGroupSums" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing CC-2g set cover as a separable group sum objective function.</p>
+    </li><li name="_root_.ConcurrencyControl_SubmodularDoubleGreedy" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ConcurrencyControl_SubmodularDoubleGreedyextendsAnyRef"></a>
+      <a id="ConcurrencyControl_SubmodularDoubleGreedy:ConcurrencyControl_SubmodularDoubleGreedy"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ConcurrencyControl_SubmodularDoubleGreedy.html"><span class="name">ConcurrencyControl_SubmodularDoubleGreedy</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@ConcurrencyControl_SubmodularDoubleGreedyextendsAnyRef" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Concurrency Control Double Greedy (CC-2g) algorithm.</p><div class="fullcomment"><div class="comment cmt"><p>Concurrency Control Double Greedy (CC-2g) algorithm.
+CC-2g runs the double greedy algorithm in parallel, coordinating between threads to ensure serializability.
+The approximation factor of CC-2g is the same as double greedy due to serial equivalence of the outcome.
+CC-2g does not scale as well as CF-2g because of the additional coordination required.</p></div></div>
+    </li><li name="_root_.CoordinationFree_MaxGraphCut" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CoordinationFree_MaxGraphCutextendsCoordinationFree_SubmodularDoubleGreedy"></a>
+      <a id="CoordinationFree_MaxGraphCut:CoordinationFree_MaxGraphCut"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CoordinationFree_MaxGraphCut.html"><span class="name">CoordinationFree_MaxGraphCut</span></a><span class="result"> extends <a href="CoordinationFree_SubmodularDoubleGreedy.html" class="extype" name="CoordinationFree_SubmodularDoubleGreedy">CoordinationFree_SubmodularDoubleGreedy</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@CoordinationFree_MaxGraphCutextendsCoordinationFree_SubmodularDoubleGreedy" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing CF-2g max graph cut</p>
+    </li><li name="_root_.CoordinationFree_SeparableGroupSums" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="CoordinationFree_SeparableGroupSumsextendsCoordinationFree_SubmodularDoubleGreedy"></a>
+      <a id="CoordinationFree_SeparableGroupSums:CoordinationFree_SeparableGroupSums"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CoordinationFree_SeparableGroupSums.html"><span class="name">CoordinationFree_SeparableGroupSums</span></a><span class="result"> extends <a href="CoordinationFree_SubmodularDoubleGreedy.html" class="extype" name="CoordinationFree_SubmodularDoubleGreedy">CoordinationFree_SubmodularDoubleGreedy</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@CoordinationFree_SeparableGroupSumsextendsCoordinationFree_SubmodularDoubleGreedy" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing CF-2g for separable sums objective functions, of the form F(X) = \sum_l g(\sum_{i\in S_l\cap X} w_l(i)) - \lambda|X|.</p><div class="fullcomment"><div class="comment cmt"><p>Class implementing CF-2g for separable sums objective functions, of the form F(X) = \sum_l g(\sum_{i\in S_l\cap X} w_l(i)) - \lambda|X|.
+See Appendix F of paper for more details.</p></div></div>
+    </li><li name="_root_.CoordinationFree_SetCover" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CoordinationFree_SetCoverextendsCoordinationFree_SeparableGroupSums"></a>
+      <a id="CoordinationFree_SetCover:CoordinationFree_SetCover"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CoordinationFree_SetCover.html"><span class="name">CoordinationFree_SetCover</span></a><span class="result"> extends <a href="CoordinationFree_SeparableGroupSums.html" class="extype" name="CoordinationFree_SeparableGroupSums">CoordinationFree_SeparableGroupSums</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@CoordinationFree_SetCoverextendsCoordinationFree_SeparableGroupSums" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing CF-2g set cover as a separable group sum objective function.</p>
+    </li><li name="_root_.CoordinationFree_SubmodularDoubleGreedy" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="CoordinationFree_SubmodularDoubleGreedyextendsAnyRef"></a>
+      <a id="CoordinationFree_SubmodularDoubleGreedy:CoordinationFree_SubmodularDoubleGreedy"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CoordinationFree_SubmodularDoubleGreedy.html"><span class="name">CoordinationFree_SubmodularDoubleGreedy</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@CoordinationFree_SubmodularDoubleGreedyextendsAnyRef" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Coordination-free Double Greedy (CF-2g) algorithm.</p><div class="fullcomment"><div class="comment cmt"><p>Coordination-free Double Greedy (CF-2g) algorithm.
+CF-2g runs the double greedy algorithm in parallel without any coordination.
+The approximation factor of CF-2g is poorer than serial double greedy and CC-2g, but scales better in parallel.</p></div></div>
+    </li><li name="_root_.Sequential_MaxGraphCut" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Sequential_MaxGraphCutextendsSequential_SubmodularDoubleGreedy"></a>
+      <a id="Sequential_MaxGraphCut:Sequential_MaxGraphCut"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Sequential_MaxGraphCut.html"><span class="name">Sequential_MaxGraphCut</span></a><span class="result"> extends <a href="Sequential_SubmodularDoubleGreedy.html" class="extype" name="Sequential_SubmodularDoubleGreedy">Sequential_SubmodularDoubleGreedy</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@Sequential_MaxGraphCutextendsSequential_SubmodularDoubleGreedy" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing double greedy max graph cut</p>
+    </li><li name="_root_.Sequential_SeparableGroupSums" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="Sequential_SeparableGroupSumsextendsSequential_SubmodularDoubleGreedy"></a>
+      <a id="Sequential_SeparableGroupSums:Sequential_SeparableGroupSums"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Sequential_SeparableGroupSums.html"><span class="name">Sequential_SeparableGroupSums</span></a><span class="result"> extends <a href="Sequential_SubmodularDoubleGreedy.html" class="extype" name="Sequential_SubmodularDoubleGreedy">Sequential_SubmodularDoubleGreedy</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@Sequential_SeparableGroupSumsextendsSequential_SubmodularDoubleGreedy" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing double greedy for separable sums objective functions, of the form F(X) = \sum_l g(\sum_{i\in S_l\cap X} w_l(i)) - \lambda|X|.</p><div class="fullcomment"><div class="comment cmt"><p>Class implementing double greedy for separable sums objective functions, of the form F(X) = \sum_l g(\sum_{i\in S_l\cap X} w_l(i)) - \lambda|X|.
+See Appendix F of paper for more details.</p></div></div>
+    </li><li name="_root_.Sequential_SetCover" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Sequential_SetCoverextendsSequential_SeparableGroupSums"></a>
+      <a id="Sequential_SetCover:Sequential_SetCover"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Sequential_SetCover.html"><span class="name">Sequential_SetCover</span></a><span class="result"> extends <a href="Sequential_SeparableGroupSums.html" class="extype" name="Sequential_SeparableGroupSums">Sequential_SeparableGroupSums</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@Sequential_SetCoverextendsSequential_SeparableGroupSums" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Class implementing double greedy for set cover as a separable group sum objective function.</p>
+    </li><li name="_root_.Sequential_SubmodularDoubleGreedy" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="Sequential_SubmodularDoubleGreedyextendsAnyRef"></a>
+      <a id="Sequential_SubmodularDoubleGreedy:Sequential_SubmodularDoubleGreedy"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Sequential_SubmodularDoubleGreedy.html"><span class="name">Sequential_SubmodularDoubleGreedy</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@Sequential_SubmodularDoubleGreedyextendsAnyRef" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Sequential Double Greedy algorithm for maximizing non-monotone unconstrained submodular functions.</p>
+    </li><li name="_root_.SparseGraph" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SparseGraphextendsAnyRef"></a>
+      <a id="SparseGraph:SparseGraph"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="SparseGraph.html"><span class="name">SparseGraph</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@SparseGraphextendsAnyRef" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Sparse graph representation.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="_root_.Examples" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Examples"></a>
+      <a id="Examples:Examples"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Examples$.html"><span class="name">Examples</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@Examples" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A couple of examples (set cover and max graph cut) demonstrating CC-2g and CF-2g.</p>
+    </li><li name="_root_.MaxGraphCutFunctions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MaxGraphCutFunctions"></a>
+      <a id="MaxGraphCutFunctions:MaxGraphCutFunctions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="MaxGraphCutFunctions$.html"><span class="name">MaxGraphCutFunctions</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@MaxGraphCutFunctions" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Static object for functions related to max graph cut, specifically for computing the objective value.</p>
+    </li><li name="_root_.PreprocessGraph" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PreprocessGraph"></a>
+      <a id="PreprocessGraph:PreprocessGraph"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PreprocessGraph$.html"><span class="name">PreprocessGraph</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@PreprocessGraph" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Given a BVGraph, creates the offsets file, then randomly permutes and symmetrizes the graph
+</p>
+    </li><li name="_root_.RandPermWebgraph" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RandPermWebgraph"></a>
+      <a id="RandPermWebgraph:RandPermWebgraph"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RandPermWebgraph$.html"><span class="name">RandPermWebgraph</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@RandPermWebgraph" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Randomly permutes a BVGraph
+</p>
+    </li><li name="_root_.SetCoverFunctions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SetCoverFunctions"></a>
+      <a id="SetCoverFunctions:SetCoverFunctions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SetCoverFunctions$.html"><span class="name">SetCoverFunctions</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@SetCoverFunctions" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Static object for functions related to set cover, specifically for computing the objective value.</p>
+    </li><li name="_root_.SymmetrizeWebgraph" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SymmetrizeWebgraph"></a>
+      <a id="SymmetrizeWebgraph:SymmetrizeWebgraph"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SymmetrizeWebgraph$.html"><span class="name">SymmetrizeWebgraph</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="index.html#package@SymmetrizeWebgraph" title="Permalink" target="_top">
+        <img src="lib/permalink.png" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Symmetrizes a BVGraph
+</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
