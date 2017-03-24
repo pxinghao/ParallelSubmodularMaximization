@@ -1,4 +1,4 @@
-#Parallel Double Greedy Submodular Maximization
+<H1>Parallel Double Greedy Submodular Maximization</H1>
 
 This repository contains the code for the parallel algorithms presented in our <a href="paper/pan-etal-nips2015.pdf">NIPS 2014 paper</a> for unconstrained maximization of non-monotone submodular functions.
 We adopt a database-transactional view of the serial double greedy algorithm which provides a provably optimal 1/2 approximation.
